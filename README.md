@@ -5,4 +5,5 @@ and run it in linux or mac os with:
 ./main
 and in windoes with:
 main.exe
+or run with cargo run
 
