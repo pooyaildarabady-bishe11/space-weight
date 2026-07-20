@@ -14,7 +14,7 @@ fn main() {
         let choise: i32 = choise_str.trim().parse().unwrap();
     
         if choise == 1 {
-            println!("inter your weight in erth");
+            println!("enter your weight in erth");
             let mut weight_in_erth1_str = String::new();
             io::stdin().read_line(&mut weight_in_erth1_str).unwrap();
             let weight_in_erth1: f32 = weight_in_erth1_str.trim().parse().unwrap();
@@ -23,7 +23,7 @@ fn main() {
         }
 
         if choise == 2 {
-            println!("inter your weight in erth");
+            println!("enter your weight in erth");
             let mut weight_in_m_str = String::new();
             io::stdin().read_line(&mut weight_in_m_str).unwrap();
             let weight_in_m: f32 = weight_in_m_str.trim().parse().unwrap();
@@ -33,7 +33,7 @@ fn main() {
 
 
         if choise == 3 {
-            println!("inter your weight in erth");
+            println!("enter your weight in erth");
             let mut weight_in_e_str = String::new();
             io::stdin().read_line(&mut weight_in_e_str).unwrap();
             let weight_in_e: f32 = weight_in_e_str.trim().parse().unwrap();
